@@ -6,8 +6,8 @@ ConversionTrackerServiceでは、コンバージョントラッカー情報の�
 #### WSDL
 | environment | url |
 |---|---|
-| production  | https://ss.yahooapis.jp/services/V6.0/ConversionTrackerService?wsdl|
-| sandbox  | https://sandbox.ss.yahooapis.jp/services/V6.0/ConversionTrackerService?wsdl|
+| production  | https://ss.yahooapis.jp/services/Vx.x/ConversionTrackerService?wsdl|
+| sandbox  | https://sandbox.ss.yahooapis.jp/services/Vx.x/ConversionTrackerService?wsdl|
 #### Namespace
 http://ss.yahooapis.jp/V6
 #### サービス概要

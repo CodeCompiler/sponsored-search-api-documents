@@ -3,8 +3,8 @@ TrafficEstimatorServiceは、ターゲットやキーワードなど、指定し
 #### WSDL
 | environment | url |
 |---|---|
-| production  | https://ss.yahooapis.jp/services/V6.0/TrafficEstimatorService?wsdl|
-| sandbox  | https://sandbox.ss.yahooapis.jp/services/V6.0/TrafficEstimatorService?wsdl|
+| production  | https://ss.yahooapis.jp/services/Vx.x/TrafficEstimatorService?wsdl|
+| sandbox  | https://sandbox.ss.yahooapis.jp/services/Vx.x/TrafficEstimatorService?wsdl|
 #### Namespace
 http://ss.yahooapis.jp/V6
 #### サービス概要

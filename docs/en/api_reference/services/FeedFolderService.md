@@ -3,8 +3,8 @@ FeedFolderService is to get, add, upgrade, or delete the FeedFolder (Data auto i
 #### WSDL
 | environment | url |
 |---|---|
-| production  | https://ss.yahooapis.jp/services/V6.0/FeedFolderService?wsdl|
-| sandbox  | https://sandbox.ss.yahooapis.jp/services/V6.0/FeedFolderService?wsdl|
+| production  | https://ss.yahooapis.jp/services/Vx.x/FeedFolderService?wsdl|
+| sandbox  | https://sandbox.ss.yahooapis.jp/services/Vx.x/FeedFolderService?wsdl|
 #### Namespace
 http://ss.yahooapis.jp/V6
 #### Overview

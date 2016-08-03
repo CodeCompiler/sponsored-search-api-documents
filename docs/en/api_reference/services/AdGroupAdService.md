@@ -4,8 +4,8 @@ Use this service to get, add, update, or delete ad information
 #### WSDL
 | environment | url |
 |---|---|
-| production  | https://ss.yahooapis.jp/services/V6.0/AdGroupAdService?wsdl|
-| sandbox  | https://sandbox.ss.yahooapis.jp/services/V6.0/AdGroupAdService?wsdl|
+| production  | https://ss.yahooapis.jp/services/Vx.x/AdGroupAdService?wsdl|
+| sandbox  | https://sandbox.ss.yahooapis.jp/services/Vx.x/AdGroupAdService?wsdl|
 
 #### Namespace
 http://ss.yahooapis.jp/V6

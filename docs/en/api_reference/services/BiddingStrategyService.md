@@ -3,8 +3,8 @@ Use this service to get, add, update, or delete auto bidding information.
 #### WSDL
 | environment | url |
 |---|---|
-| production  | https://ss.yahooapis.jp/services/V6.0/BiddingStrategyService?wsdl|
-| sandbox  | https://sandbox.ss.yahooapis.jp/services/V6.0/BiddingStrategyService?wsdl|
+| production  | https://ss.yahooapis.jp/services/Vx.x/BiddingStrategyService?wsdl|
+| sandbox  | https://sandbox.ss.yahooapis.jp/services/Vx.x/BiddingStrategyService?wsdl|
 #### Namespace
 http://ss.yahooapis.jp/V6
 #### Overview
