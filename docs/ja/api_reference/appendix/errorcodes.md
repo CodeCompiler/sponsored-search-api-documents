@@ -205,10 +205,10 @@ SOAPリクエストが成功した場合、スポンサードサーチ APIは HT
 210403 | Not enough conversions.  | コンバージョン数が不十分です。
 210404 | Auto bidding is already set.  | キーワードに個別の入札価格や入札設定が指定されている状態で、キャンペーンに「コンバージョン数の最大化」、または「コンバージョン単価の目標値」の自動入札を設定しています。
 210405 | Budget has exceeded.  | 予算額を超過しています。
-210406 | Cannot use conversion optimizer.  | コンバージョンオプティマイザーが利用できません。
+210406 | Cannot use conversion optimizer.  | 自動入札設定が利用できません。
 210407 | Set campaign active.	| キャンペーンがACTIVEでないため、入札設定が利用できません。
 210408 | Set campaign to Manual CPC.  | キャンペーンが「MANUAL_CPC」でないため、入札設定が利用できません。
-210409 | Bid setting limit has exceed.  | キャンペーン配下の広告グループに上限以上の入札を設定されています。
+210409 | Bid setting limit has exceed. |  キャンペーン配下の広告グループに設定した入札金額または自動入札設定数が上限を超えています。<br>※1キャンペーンに設定できる入札金額および自動入札設定は、配下の広告グループ合計で1000件までです。
 211000 | Cannot operate AdvancedURL.	| アドバンスドURLに移行済みのため、操作できません。
 211001 | Cannot set AdvancedMobileURL. | アプリダウンロードキャンペーンでは、advancedMobileUrlの設定はできません。
 211002 | Lpurl is required for ValueTrack.	| トラッキングURLにバリュートラックの{lpurl}を入れてください。
@@ -354,10 +354,11 @@ SOAPリクエストが成功した場合、スポンサードサーチ APIは HT
 20103 | OVER_LIST_SIZE| 指定した要素数が上限値を超えています。
 21601 | Invalid url format. | クイックリンクURL、または、キーワードのカスタムURLが不正です。
 210102 | INVALID PHONE NUMBER | FeedItemServiceでCALL_PHONE_NUMBERに指定した電話番号の形式が正しくありません。<br>このエラーはCALLEXTENSIONのFeedItem情報の登録の場合に発生します。
-210103 | UNMATCH PLACEHOLDER TYPE | placeholderTypeとfeedItemIdの組み合わせが正しくないときに発生します。 <br>CampaignFeedSerivceやAdGroupFeedServiceで、placeholderTypeがQUICKLINKのときにCALLEXTENSIONのfeedItemIdを指定した場合などです。
-210104 | INVALID STATUS | 誤った値です。 
-210110 | INVALID TARGET | 無効なターゲティングです。
+210104 | INVALID STATUS | 審査中のため、更新できません。 
+210110 | INVALID TARGET | １日のスケジュール指定が上限値（6件）を超えています。
 211000 | Cannot operate AdvancedURL.	| アドバンスドURLに移行済みのため、操作できません。
+210123 | CAMPAIGN TARGETING MISMATCH | targetingCampaignIdで指定したキャンペーンIDと、targetingAdGroupIdで指定した広告グループの上位キャンペーンIDが異なるため、設定できません。
+210126 | Mobile app download cannot connect to. | アプリダウンロードキャンペーンは設定できません。
 
 
 ##### Service
