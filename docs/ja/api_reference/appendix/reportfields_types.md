@@ -12,7 +12,7 @@
 * [広告表示オプションレポート](#feed_item)
 * [地域ターゲティングレポート](#geo_target)
 * [曜日・時間帯ターゲティングレポート](#schedule_target)
-* [デバイスターゲティングレポート](#device_target)
+* [デバイスターゲティングレポート](#device_target) ※2016年10月19日以降は利用できません。
 * [自動入札レポート](#bid_strategy)
 * [ターゲットリスト設定レポート](#target_list)
 * [データ自動挿入レポート](#ad_customizers)
@@ -485,7 +485,7 @@ WEEK		|×	|×	|×	|×
 
 <hr>
 <a name="device_target">
-#### デバイスターゲティングレポート
+#### デバイスターゲティングレポート ※2016年10月19日以降は利用できません。
 利用できるフィールド	|時間との組み合わせ（HOUR_OF_DAY）	|コンバージョン測定の<br>目的との組み合わせ（OBJECT_OF_CONV<br>ERSION_TRACKING）	|コンバージョン名<br>との組み合わせ（CONVER<br>SION_NAME）	|クリック種別<br>との組み合わせ（CLICK_TYPE）
 -----|-----|-----|-----|-----
 CAMPAIGN_ID	|×	|×	|×	|×
