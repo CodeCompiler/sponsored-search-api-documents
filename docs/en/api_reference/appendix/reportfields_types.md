@@ -34,9 +34,9 @@ AVG_DELIVER_RANK		|yes	|no	|no	|yes
 INVALID_CLICKS			|no	|no	|no	|yes
 INVALID_CLICK_RATE		|no	|no	|no	|yes
 REVENUE				|yes	|yes	|yes	|yes
-UNIQUE_CONVERSION		|yes	|yes	|yes	|yes
+UNIQUE_CONVERSION		|yes	|no	|no	|yes
 UNIQUE_CONVERSION_RATE		|yes	|no	|no	|yes
-REVENUE_UNIQUE_CONVERSION	|yes	|yes	|yes	|yes
+REVENUE_UNIQUE_CONVERSION	|yes	|no	|no	|yes
 REVENUE_CONVERSION		|yes	|yes	|yes	|yes
 CONVERSION			|yes	|yes	|yes	|yes
 CONVERSION_RATE			|yes	|no	|no	|yes
@@ -84,9 +84,9 @@ AVG_DELIVER_RANK		|yes	|no	|no	|yes
 INVALID_CLICKS		|no	|no	|no	|yes
 INVALID_CLICK_RATE	|yes	|no	|no	|no	|yes
 REVENUE		|yes	|yes	|yes	|yes
-UNIQUE_CONVERSION	|yes	|yes	|yes	|yes
+UNIQUE_CONVERSION	|yes	|no	|no	|yes
 UNIQUE_CONVERSION_RATE		|yes	|no	|no	|yes
-REVENUE_UNIQUE_CONVERSION		|yes	|yes	|yes	|yes
+REVENUE_UNIQUE_CONVERSION		|yes	|no	|no	|yes
 REVENUE_CONVERSION		|yes	|yes	|yes	|yes
 CONVERSION	|yes		|yes	|yes	|yes
 CONVERSION_RATE	|yes		|no	|no	|yes
@@ -135,9 +135,9 @@ AVG_CPC	|yes		|no	|no	|yes
 AVG_DELIVER_RANK	|yes	|yes	|no	|no	|yes
 MAX_CPM	|yes		|yes	|yes	|yes
 REVENUE	|yes		|yes	|yes	|yes
-UNIQUE_CONVERSION		|yes	|yes	|yes	|yes
+UNIQUE_CONVERSION		|yes	|no	|no	|yes
 UNIQUE_CONVERSION_RATE		|yes	|no	|no	|yes
-REVENUE_UNIQUE_CONVERSION		|yes	|yes	|yes	|yes
+REVENUE_UNIQUE_CONVERSION		|yes	|no	|no	|yes
 REVENUE_CONVERSION		|yes	|yes	|yes	|yes
 CONVERSION	|yes		|yes	|yes	|yes
 CONVERSION_RATE	|yes		|no	|no	|yes
@@ -189,9 +189,9 @@ AVG_CPM	|no	|no	|no	|yes
 AVG_CPC		|no	|no	|no	|yes
 AVG_DELIVER_RANK		|no	|no	|no	|yes
 REVENUE		|no	|yes	|yes	|yes
-UNIQUE_CONVERSION		|no	|yes	|yes	|yes
+UNIQUE_CONVERSION		|no	|no	|no	|yes
 UNIQUE_CONVERSION_RATE		|no	|no	|no	|yes
-REVENUE_UNIQUE_CONVERSION		|no	|yes	|yes	|yes
+REVENUE_UNIQUE_CONVERSION		|no	|no	|no	|yes
 REVENUE_CONVERSION		|no	|yes	|yes	|yes
 CONVERSION	|no	|yes	|yes	|yes
 CONVERSION_RATE		|no	|no	|no	|yes
@@ -247,9 +247,9 @@ AVG_CPM		|no	|no	|no	|yes
 AVG_CPC		|no	|no	|no	|yes
 AVG_DELIVER_RANK	|no	|no	|no	|yes
 REVENUE		|no	|yes	|yes	|yes
-UNIQUE_CONVERSION		|no	|yes	|yes	|yes
+UNIQUE_CONVERSION		|no	|no	|no	|yes
 UNIQUE_CONVERSION_RATE		|no	|no	|no	|yes
-REVENUE_UNIQUE_CONVERSION		|no	|yes	|yes	|yes
+REVENUE_UNIQUE_CONVERSION		|no	|no	|no	|yes
 REVENUE_CONVERSION		|no	|yes	|yes	|yes
 CONVERSION	|no	|yes	|yes	|yes
 CONVERSION_RATE	|no	|no	|no	|yes
@@ -295,9 +295,9 @@ AVG_CPM		|no	|no	|no	|no
 AVG_CPC		|no	|no	|no	|no
 AVG_DELIVER_RANK		|no	|no	|no	|no
 REVENUE		|no	|yes	|yes	|no
-UNIQUE_CONVERSION		|no	|yes	|yes	|no
+UNIQUE_CONVERSION		|no	|no	|no	|no
 UNIQUE_CONVERSION_RATE		|no	|no	|no	|no
-REVENUE_UNIQUE_CONVERSION	|no	|yes	|yes	|no
+REVENUE_UNIQUE_CONVERSION	|no	|no	|no	|no
 REVENUE_CONVERSION		|no	|yes	|yes	|no
 CONVERSION		|no	|yes	|yes	|no
 CONVERSION_RATE		|no	|no	|no	|no
@@ -334,9 +334,9 @@ CLICK_RATE	|no	|no	|no	|no
 AVG_CPM		|no	|no	|no	|no
 AVG_CPC		|no	|no	|no	|no
 REVENUE		|no	|yes	|yes	|no
-UNIQUE_CONVERSION	|no	|yes	|yes	|no
+UNIQUE_CONVERSION	|no	|no	|no	|no
 UNIQUE_CONVERSION_RATE	|no	|no	|no	|no
-REVENUE_UNIQUE_CONVERSION	|no	|yes	|yes	|no
+REVENUE_UNIQUE_CONVERSION	|no	|no	|no	|no
 REVENUE_CONVERSION	|no	|yes	|yes	|no
 CONVERSION		|no	|yes	|yes	|no
 CONVERSION_RATE		|no	|no	|no	|no
@@ -377,13 +377,13 @@ AVG_CPM		|no	|no	|no	|yes
 AVG_CPC		|no	|no	|no	|yes
 AVG_DELIVER_RANK|no	|no	|no	|yes
 REVENUE		|no	|yes	|yes	|yes
-UNIQUE_CONVERSION	|no	|yes	|yes	|yes
-UNIQUE_CONVERSION_RATE	|no	|yes	|yes	|yes
-REVENUE_UNIQUE_CONVERSION	|no	|yes	|yes	|yes
+UNIQUE_CONVERSION	|no	|no	|no	|yes
+UNIQUE_CONVERSION_RATE	|no	|no	|no	|yes
+REVENUE_UNIQUE_CONVERSION	|no	|no	|no	|yes
 REVENUE_CONVERSION	|no	|yes	|yes	|yes
 CONVERSION		|no	|yes	|yes	|yes
 CONVERSION_RATE		|no	|yes	|yes	|yes
-COST_UNIQUE_CONVERSION	|no	|yes	|yes	|yes
+COST_UNIQUE_CONVERSION	|no	|no	|no	|yes
 CPA		|no	|yes	|yes	|yes
 EDITORIAL_STATUS	|no	|yes	|yes	|yes
 PHONE_NUMBER	|no	|yes	|yes	|yes
@@ -583,13 +583,13 @@ AVG_CPM		|no	|no	|no	|yes
 AVG_CPC		|no	|no	|no	|yes
 AVG_DELIVER_RANK	|no	|no	|no	|yes
 REVENUE		|no	|yes	|yes	|yes
-UNIQUE_CONVERSION	|no	|yes	|yes	|yes
-UNIQUE_CONVERSION_RATE	|no	|yes	|yes	|yes
-REVENUE_UNIQUE_CONVERSION	|no	|yes	|yes	|yes
+UNIQUE_CONVERSION	|no	|no	|no	|yes
+UNIQUE_CONVERSION_RATE	|no	|no	|no	|yes
+REVENUE_UNIQUE_CONVERSION	|no	|no	|no	|yes
 REVENUE_CONVERSION	|no	|yes	|yes	|yes
 CONVERSION	|no	|yes	|yes	|yes
 CONVERSION_RATE	|no	|yes	|yes	|yes
-COST_UNIQUE_CONVERSION	|no	|yes	|yes	|yes
+COST_UNIQUE_CONVERSION	|no	|no	|no	|yes
 CPA		|no	|yes	|yes	|yes
 BID_MULTIPLIER	|no	|yes	|yes	|yes
 TARGET_LIST_ID	|no	|yes	|yes	|yes
@@ -628,13 +628,13 @@ AVG_CPM		|no	|no	|no	|no
 AVG_CPC		|no	|no	|no	|no
 AVG_DELIVER_RANK	|no	|no	|no	|no
 REVENUE		|no	|yes	|yes	|no
-UNIQUE_CONVERSION	|no	|yes	|yes	|no
-UNIQUE_CONVERSION_RATE	|no	|yes	|yes	|no
-REVENUE_UNIQUE_CONVERSION	|no	|yes	|yes	|no
+UNIQUE_CONVERSION	|no	|no	|no	|no
+UNIQUE_CONVERSION_RATE	|no	|no	|no	|no
+REVENUE_UNIQUE_CONVERSION	|no	|no	|no	|no
 REVENUE_CONVERSION	|no	|yes	|yes	|no
 CONVERSION		|no	|yes	|yes	|no
 CONVERSION_RATE		|no	|yes	|yes	|no
-COST_UNIQUE_CONVERSION	|no	|yes	|yes	|no
+COST_UNIQUE_CONVERSION	|no	|no	|no	|no
 CPA		|no	|yes	|yes	|no
 EDITORIAL_STATUS	|no	|yes	|yes	|no
 FEED_ID		|no	|yes	|yes	|no
