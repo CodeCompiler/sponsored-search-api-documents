@@ -9,7 +9,7 @@ ConversionTrackerPage object shows entry of ConversionTracker.
 | totalNumEntries| xsd:int| Total number of entries |
 | Page.Type| xsd:string| Page subtypefor the instance |
 | ConversionTrackerPage|||
-| totalNumConvertedClicks| xsd:long| Sum of Click through Conversion. |
+| totalNumConvertedClicks| xsd:long| Sum of Click through Conversion. <br>*This data item has been disabled as of October 26, 2016.<br>All return values will be "0" (zero).|
 | totalNumConversionEvents| xsd:long| Sum of the number of Conversion event |
 | totalConversionValue| xsd:long| Sum of the value of Conversion |
 | values[]| <a href="./ConversionTrackerValues.md">ConversionTrackerValues</a>| ConversionTracker information |
