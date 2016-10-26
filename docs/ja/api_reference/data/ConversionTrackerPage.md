@@ -7,7 +7,7 @@ ConversionTrackerPageオブジェクトは、取得されるコンバージョ�
 | Page(inherited)|||
 | totalNumEntries| xsd:int| 取得される項目の総件数です。 |
 | ConversionTrackerPage|||
-| totalNumConvertedClicks| xsd:long| クリックスルー コンバージョンの合計値です。 |
+| totalNumConvertedClicks| xsd:long|クリックスルーコンバージョンの合計値です。<br>※2016年10月26日をもちまして、本項目の値は取得できなくなりました。<br>すべて「0」が返却されます。 |
 | totalNumConversionEvents| xsd:long| コンバージョンイベント回数の合計値です。 |
 | totalConversionValue| xsd:long| コンバージョン値の合計値です。 |
 | Values[]| <a href="./ConversionTrackerValues.md">ConversionTrackerValues</a>| コンバージョントラッカー情報です。 |

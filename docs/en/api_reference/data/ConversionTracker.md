@@ -13,7 +13,7 @@ ConversionTracker object shows ConversionTracker information such as ConversionT
 | numConversionEvents| xsd:int| Total conversions.<br>Total conversions are the count for all conversions that resulted within 30 days of 1 click of an ad.| -| - |
 | conversionValue| xsd:long| Total sales by conversion.| -| - |
 | mostRecentConversionDate| xsd:string| Most recent date of Conversion| -| - |
-| numConvertedClicks| xsd:int| The number of Unique Conversions.<br>The unique conversion refers to the first conversion that resulted within 30 days of 1 click of an ad.<br>Even if several conversions resulted from a click of an ad, the second and further conversions are not counted.| -| - |
+| numConvertedClicks| xsd:int| The number of Unique Conversions.<br>The unique conversion refers to the first conversion that resulted within 30 days of 1 click of an ad.<br>Even if several conversions resulted from a click of an ad, the second and further conversions are not counted.<br>*This data item has been disabled as of October 26, 2016.<br>All return values will be "0" (zero).| -| - |
 | conversionTrackerType| enum <a href="./ConversionTrackerType.md">ConversionTrackerType</a>| Conversion Type| Req| Req |
 | userRevenueValue| xsd:string| Revenue value for ConversionTracker.<br>If fixed value is set for a conversion by user, total revenue is appeared in the report.<br>App conversion value is not assignable, download sales will be calculated as conversion value.<br>If the number is not set during the ADD request, it will be set 0 as default.| Opt| Opt |
 
