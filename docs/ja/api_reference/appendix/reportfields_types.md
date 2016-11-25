@@ -12,7 +12,6 @@
 * [広告表示オプションレポート](#feed_item)
 * [地域ターゲティングレポート](#geo_target)
 * [曜日・時間帯ターゲティングレポート](#schedule_target)
-* [デバイスターゲティングレポート](#device_target) ※2016年10月19日以降は利用できません。
 * [自動入札レポート](#bid_strategy)
 * [ターゲットリスト設定レポート](#target_list)
 * [データ自動挿入レポート](#ad_customizers)
@@ -47,6 +46,16 @@ EXACT_MATCH_IMPRESSION_SHARE		|○	|×	|×	|×
 BUDGET_LOST_IMPRESSION_SHARE		|○	|×	|×	|×
 QUALITY_LOST_IMPRESSION_SHARE		|○	|×	|×	|×
 TRACKING_URL			|○	|○	|○	|○
+CONVERSIONS			|○	|○	|○	|○
+CONV_RATE			|○	|×	|×	|○
+CONV_VALUE			|○	|○	|○	|○
+COST_PER_CONV			|○	|×	|×	|○
+VALUE_PER_CONV			|○	|○	|○	|○
+ALL_CONV			|×	|○	|○	|○
+ALL_CONV_RATE			|×	|×	|×	|○
+ALL_CONV_VALUE			|×	|○	|○	|○
+COST_PER_ALL_CONV			|×	|×	|×	|○
+VALUE_PER_ALL_CONV			|×	|○	|○	|○
 NETWORK				|○	|○	|○	|○
 CLICK_TYPE			|○	|○	|○	|-
 DEVICE				|○	|○	|○	|○
@@ -100,6 +109,17 @@ CAMPAIGN_TYPE		|○	|○	|○	|○
 TRACKING_URL		|○	|○	|○	|○
 CUSTOM_PARAMETERS		|○	|○	|○	|○
 CAMPAIGN_TRACKING_ID		|○	|○	|○	|○
+CONVERSIONS		|○	|○	|○	|○
+CONV_RATE		|○	|×	|×	|○
+CONV_VALUE		|○	|○	|○	|○
+COST_PER_CONV		|○	|×	|×	|○
+VALUE_PER_CONV		|○	|○	|○	|○
+ALL_CONV		|×	|○	|○	|○
+ALL_CONV_RATE		|×	|×	|×	|○
+ALL_CONV_VALUE		|×	|○	|○	|○
+COST_PER_ALL_CONV		|×	|×	|×	|○
+VALUE_PER_ALL_CONV		|×	|○	|○	|○
+CAMPAIGN_MOBILE_BID_MODIFIER		|○	|○	|○	|○
 NETWORK		|○	|○	|○	|○
 CLICK_TYPE		|○	|○	|○	
 DEVICE	|○		|○	|○	|○
@@ -148,6 +168,17 @@ EXACT_MATCH_IMPRESSION_SHARE		|○	|×	|×	|×
 QUALITY_LOST_IMPRESSION_SHARE		|○	|×	|×	|×
 TRACKING_URL	|○		|○	|○	|○
 CUSTOM_PARAMETERS		|○	|○	|○	|○
+CONVERSIONS		|○	|○	|○	|○
+CONV_RATE		|○	|×	|×	|○
+CONV_VALUE		|○	|○	|○	|○
+COST_PER_CONV		|○	|×	|×	|○
+VALUE_PER_CONV		|○	|○	|○	|○
+ALL_CONV		|×	|○	|○	|○
+ALL_CONV_RATE		|×	|×	|×	|○
+ALL_CONV_VALUE		|×	|○	|○	|○
+COST_PER_ALL_CONV		|×	|×	|×	|○
+VALUE_PER_ALL_CONV		|×	|○	|○	|○
+ADGROUP_MOBILE_BID_MODIFIER		|○	|○	|○	|○
 NETWORK	|○	|○		|○	|○
 CLICK_TYPE	|○		|○	|○	|-
 DEVICE	|○	|○		|○	|○
@@ -204,6 +235,21 @@ CUSTOM_PARAMETERS	|×	|○	|○	|○
 LANDING_PAGE_URL	|×	|○	|○	|○
 LANDING_PAGE_URL_SMARTPHONE	|×	|○	|○	|○
 AD_TRACKING_ID	|×	|○	|○	|○
+TITLE1	|○	|○	|○	|○
+TITLE2	|○	|○	|○	|○
+DESC	|○	|○	|○	|○
+DIRECTORY1	|○	|○	|○	|○
+DIRECTORY2	|○	|○	|○	|○
+CONVERSIONS	|○	|○	|○	|○
+CONV_RATE	|○	|×	|×	|○
+CONV_VALUE	|○	|○	|○	|○
+COST_PER_CONV	|○	|×	|×	|○
+VALUE_PER_CONV	|○	|○	|○	|○
+ALL_CONV	|○	|○	|○	|○
+ALL_CONV_RATE	|○	|×	|×	|○
+ALL_CONV_VALUE	|○	|○	|○	|○
+COST_PER_ALL_CONV	|○	|×	|×	|○
+VALUE_PER_ALL_CONV	|○	|○	|○	|○
 NETWORK	|×	|○	|○	|○
 CLICK_TYPE	|×	|○	|○	|-
 DEVICE	|×	|○	|○	|○
@@ -260,6 +306,16 @@ TRACKING_URL		|×	|○	|○	|○
 CUSTOM_PARAMETERS	|×	|○	|○	|○
 LANDING_PAGE_URL	|×	|○	|○	|○
 LANDING_PAGE_URL_SMARTPHONE	|×	|○	|○	|○
+CONVERSIONS	|○	|○	|○	|○
+CONV_RATE	|○	|×	|×	|○
+CONV_VALUE	|○	|○	|○	|○
+COST_PER_CONV	|○	|×	|×	|○
+VALUE_PER_CONV	|○	|○	|○	|○
+ALL_CONV	|○	|○	|○	|○
+ALL_CONV_RATE	|○	|×	|×	|○
+ALL_CONV_VALUE	|○	|○	|○	|○
+COST_PER_ALL_CONV	|○	|×	|×	|○
+VALUE_PER_ALL_CONV	|○	|○	|○	|○
 NETWORK		|×	|○	|○	|○
 CLICK_TYPE	|×	|○	|○	|-
 DEVICE		|×	|○	|○	|○
@@ -305,6 +361,16 @@ COST_UNIQUE_CONVERSION		|×	|×	|×	|×
 CPA		|×	|×	|×	|×
 TRACKING_URL		|×	|○	|○	|×
 LANDING_PAGE_URL		|×	|○	|○	|×
+CONVERSIONS		|○	|○	|○	|×
+CONV_RATE		|○	|×	|×	|×
+CONV_VALUE		|○	|○	|○	|×
+COST_PER_CONV		|○	|×	|×	|×
+VALUE_PER_CONV		|○	|○	|○	|×
+ALL_CONV		|○	|○	|○	|×
+ALL_CONV_RATE		|○	|×	|×	|×
+ALL_CONV_VALUE		|○	|○	|○	|×
+COST_PER_ALL_CONV		|○	|×	|×	|×
+VALUE_PER_ALL_CONV		|○	|○	|○	|×
 NETWORK		|×	|○	|○	|×
 DEVICE		|×	|○	|○	|×
 DAY		|×	|○	|○	|×
@@ -342,6 +408,16 @@ CONVERSION		|×	|○	|○	|×
 CONVERSION_RATE		|×	|×	|×	|×
 COST_UNIQUE_CONVERSION	|×	|×	|×	|×
 CPA		|×	|×	|×	|×
+CONVERSIONS		|○	|○	|○	|×
+CONV_RATE		|○	|×	|×	|×
+CONV_VALUE		|○	|○	|○	|×
+COST_PER_CONV		|○	|×	|×	|×
+VALUE_PER_CONV		|○	|○	|○	|×
+ALL_CONV		|○	|○	|○	|×
+ALL_CONV_RATE		|○	|×	|×	|×
+ALL_CONV_VALUE		|○	|○	|○	|×
+COST_PER_ALL_CONV		|○	|×	|×	|×
+VALUE_PER_ALL_CONV		|○	|○	|○	|×
 NETWORK		|×	|○	|○	|×
 DEVICE		|×	|○	|○	|×
 DAY		|×	|○	|○	|×
@@ -399,6 +475,16 @@ TRACKING_URL		|×	|○	|○	|○
 CUSTOM_PARAMETERS	|×	|○	|○	|○
 LANDING_PAGE_URL	|×	|○	|○	|○
 LANDING_PAGE_URL_SMARTPHONE	|×	|○	|○	|○
+CONVERSIONS		|×	|○	|○	|○
+CONV_RATE		|×	|○	|○	|○
+CONV_VALUE		|×	|○	|○	|○
+COST_PER_CONV		|×	|○	|○	|○
+VALUE_PER_CONV		|×	|○	|○	|○
+ALL_CONV		|×	|○	|○	|○
+ALL_CONV_RATE		|×	|○	|○	|○
+ALL_CONV_VALUE		|×	|○	|○	|○
+COST_PER_ALL_CONV		|×	|○	|○	|○
+VALUE_PER_ALL_CONV		|×	|○	|○	|○
 NETWORK		|×	|○	|○	|○
 CLICK_TYPE	|×	|○	|○	|-
 DEVICE		|×	|○	|○	|○
@@ -441,6 +527,16 @@ CPA		|×	|×	|×	|×
 BID_MULTIPLIER	|×	|×	|×	|×
 TARGET_LOCATION_ID	|×	|×	|×	|×
 TARGET_LOCATION_NAME	|×	|×	|×	|×
+CONVERSIONS	|×	|×	|×	|×
+CONV_RATE	|×	|×	|×	|×
+CONV_VALUE	|×	|×	|×	|×
+COST_PER_CONV	|×	|×	|×	|×
+VALUE_PER_CONV	|×	|×	|×	|×
+ALL_CONV	|×	|×	|×	|×
+ALL_CONV_RATE	|×	|×	|×	|×
+ALL_CONV_VALUE	|×	|×	|×	|×
+COST_PER_ALL_CONV	|×	|×	|×	|×
+VALUE_PER_ALL_CONV	|×	|×	|×	|×
 DAY	|×	|×	|×	|×
 QUARTER	|×	|×	|×	|×
 YEAR	|×	|×	|×	|×
@@ -475,46 +571,22 @@ CPA		|×	|×	|×	|×
 BID_MULTIPLIER	|×	|×	|×	|×
 TARGET_SCHEDULE_ID	|×	|×	|×	|×
 TARGET_SCHEDULE	|×	|×	|×	|×
+CONVERSIONS		|×	|×	|×	|×
+CONV_RATE		|×	|×	|×	|×
+CONV_VALUE		|×	|×	|×	|×
+COST_PER_CONV		|×	|×	|×	|×
+VALUE_PER_CONV		|×	|×	|×	|×
+ALL_CONV		|×	|×	|×	|×
+ALL_CONV_RATE		|×	|×	|×	|×
+ALL_CONV_VALUE		|×	|×	|×	|×
+COST_PER_ALL_CONV		|×	|×	|×	|×
+VALUE_PER_ALL_CONV		|×	|×	|×	|×
 DAY		|×	|×	|×	|×
 QUARTER		|×	|×	|×	|×
 YEAR		|×	|×	|×	|×
 MONTH		|×	|×	|×	|×
 MONTH_OF_YEAR	|×	|×	|×	|×
 WEEK		|×	|×	|×	|×
-<br>
-
-<hr>
-<a name="device_target">
-#### デバイスターゲティングレポート ※2016年10月19日以降は利用できません。
-利用できるフィールド	|時間との組み合わせ（HOUR_OF_DAY）	|コンバージョン測定の<br>目的との組み合わせ（OBJECT_OF_CONV<br>ERSION_TRACKING）	|コンバージョン名<br>との組み合わせ（CONVER<br>SION_NAME）	|クリック種別<br>との組み合わせ（CLICK_TYPE）
------|-----|-----|-----|-----
-CAMPAIGN_ID	|×	|×	|×	|×
-CAMPAIGN_NAME	|×	|×	|×	|×
-COST	|×	|×	|×	|×
-IMPS	|×	|×	|×	|×
-CLICKS	|×	|×	|×	|×
-CLICK_RATE	|×	|×	|×	|×
-AVG_CPM	|×	|×	|×	|×
-AVG_CPC	|×	|×	|×	|×
-AVG_DELIVER_RANK	|×	|×	|×	|×
-REVENUE		|×	|×	|×	|×
-UNIQUE_CONVERSION	|×	|×	|×	|×
-UNIQUE_CONVERSION_RATE	|×	|×	|×	|×
-REVENUE_UNIQUE_CONVERSION	|×	|×	|×	|×
-REVENUE_CONVERSION	|×	|×	|×	|×
-CONVERSION		|×	|×	|×	|×
-CONVERSION_RATE		|×	|×	|×	|×
-COST_UNIQUE_CONVERSION	|×	|×	|×	|×
-CPA		|×	|×	|×	|×
-BID_MULTIPLIER	|×	|×	|×	|×
-TARGET_DEVICE_ID	|×	|×	|×	|×
-TARGET_DEVICE	|×	|×	|×	|×
-DAY		|×	|×	|×	|×
-QUARTER	|×	|×	|×	|×
-YEAR	|×	|×	|×	|×
-MONTH	|×	|×	|×	|×
-MONTH_OF_YEAR	|×	|×	|×	|×
-WEEK	|×	|×	|×	|×
 <br>
 
 <hr>
@@ -555,6 +627,16 @@ TARGET_ROAS		|○	|×	|×	|×
 UPPER_BID_LIMIT_OF_TARGET_ROAS	|○	|×	|×	|×
 LOWER_BID_LIMIT_OF_TARGET_ROAS	|○	|×	|×	|×
 UPPER_BID_LIMIT_OF_MAXIMIZE_CLICKS	|○	|×	|×	|×
+CONVERSIONS		|○	|×	|×	|×
+CONV_RATE		|○	|×	|×	|×
+CONV_VALUE		|○	|×	|×	|×
+COST_PER_CONV		|○	|×	|×	|×
+VALUE_PER_CONV		|○	|×	|×	|×
+ALL_CONV		|×	|×	|×	|×
+ALL_CONV_RATE		|×	|×	|×	|×
+ALL_CONV_VALUE		|×	|×	|×	|×
+COST_PER_ALL_CONV		|×	|×	|×	|×
+VALUE_PER_ALL_CONV		|×	|×	|×	|×
 DEVICE		|○	|×	|×	|×
 DAY		|○	|×	|×	|×
 DAY_OF_WEEK	|○	|×	|×	|×
@@ -595,6 +677,16 @@ BID_MULTIPLIER	|×	|○	|○	|○
 TARGET_LIST_ID	|×	|○	|○	|○
 TARGET_LIST_NAME	|×	|○	|○	|○
 TARGET_LIST_STATUS	|×	|○	|○	|○
+CONVERSIONS		|×	|○	|○	|○
+CONV_RATE		|×	|○	|○	|○
+CONV_VALUE		|×	|○	|○	|○
+COST_PER_CONV		|×	|○	|○	|○
+VALUE_PER_CONV		|×	|○	|○	|○
+ALL_CONV		|×	|○	|○	|○
+ALL_CONV_RATE		|×	|○	|○	|○
+ALL_CONV_VALUE		|×	|○	|○	|○
+COST_PER_ALL_CONV		|×	|○	|○	|○
+VALUE_PER_ALL_CONV		|×	|○	|○	|○
 NETWORK		|×	|○	|○	|○
 CLICK_TYPE	|×	|○	|○	|-
 DEVICE		|×	|○	|○	|○
@@ -642,6 +734,16 @@ FEED_ITEM_ID	|×	|○	|○	|×
 FEED_ITEM_START_DATE	|×	|○	|○	|×
 FEED_ITEM_END_DATE	|×	|○	|○	|×
 FEED_ITEM_ATTRIBUTES	|×	|○	|○	|×
+CONVERSIONS		|×	|○	|○	|×
+CONV_RATE		|×	|○	|○	|×
+CONV_VALUE		|×	|○	|○	|×
+COST_PER_CONV		|×	|○	|○	|×
+VALUE_PER_CONV		|×	|○	|○	|×
+ALL_CONV		|×	|○	|○	|×
+ALL_CONV_RATE		|×	|○	|○	|×
+ALL_CONV_VALUE		|×	|○	|○	|×
+COST_PER_ALL_CONV		|×	|○	|○	|×
+VALUE_PER_ALL_CONV		|×	|○	|○	|×
 NETWORK		|×	|○	|○	|×
 DEVICE		|×	|○	|○	|×
 DAY		|×	|○	|○	|×
@@ -682,6 +784,16 @@ COST_UNIQUE_CONVERSION	|×	|×	|×	|×
 CPA		|×	|×	|×	|×
 TRACKING_URL	|×	|○	|○	|×
 LANDING_PAGE_URL	|×	|○	|○	|×
+CONVERSIONS		|×	|○	|○	|×
+CONV_RATE		|×	|×	|×	|×
+CONV_VALUE		|×	|○	|○	|×
+COST_PER_CONV		|×	|×	|×	|×
+VALUE_PER_CONV		|×	|○	|○	|×
+ALL_CONV		|×	|○	|○	|×
+ALL_CONV_RATE		|×	|×	|×	|×
+ALL_CONV_VALUE		|×	|○	|○	|×
+COST_PER_ALL_CONV		|×	|×	|×	|×
+VALUE_PER_ALL_CONV		|×	|○	|○	|×
 NETWORK		|×	|○	|○	|×
 DEVICE		|×	|○	|○	|×
 DAY		|×	|○	|○	|×
