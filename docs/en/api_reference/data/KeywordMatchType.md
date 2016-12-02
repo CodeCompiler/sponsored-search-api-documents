@@ -5,7 +5,6 @@ KeywordMatchType displays a match type of a keyword.
 + [AdGroupCriterionService](../services/AdGroupCriterionService.md)
 + [CampaignCriterionService](../services/CampaignCriterionService.md)
 + [TargetingIdeaService](../services/TargetingIdeaService.md)
-+ [TrafficEstimatorService](../services/TrafficEstimatorService.md)
 + [KeywordEstimatorService](../services/KeywordEstimatorService.md)
 + [FeedItemService](../services/FeedItemService.md)
 

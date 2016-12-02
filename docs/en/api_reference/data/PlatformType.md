@@ -3,7 +3,6 @@ PlatformType is a platform of the selected device.
 ### Service
 + [AdGroupBidMultiplierService](../services/AdGroupBidMultiplierService.md)
 + [CampaignTargetService](../services/CampaignTargetService.md)
-+ [TrafficEstimatorService](../services/TrafficEstimatorService.md)
 
 | Enumeration | Description | 
 |---|---|

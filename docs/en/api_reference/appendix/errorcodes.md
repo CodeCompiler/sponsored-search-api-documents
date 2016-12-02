@@ -307,7 +307,7 @@ All services.
 
 #### Forecasting error
 ##### Service
-[BidLandscapeService](/docs/en/api_reference/services/BidLandscapeService.md), <br> [TargetingIdeaService](/docs/en/api_reference/services/TargetingIdeaService.md), <br> [TrafficEstimatorService](/docs/en/api_reference/services/TrafficEstimatorService.md), <br> [KeywordEstimatorService](/docs/en/api_reference/services/KeywordEstimatorService.md)
+[BidLandscapeService](/docs/en/api_reference/services/BidLandscapeService.md), <br> [TargetingIdeaService](/docs/en/api_reference/services/TargetingIdeaService.md), <br> [KeywordEstimatorService](/docs/en/api_reference/services/KeywordEstimatorService.md)
 
  Code    | Message        | Description              
 -------- | -------------- | ------------------------

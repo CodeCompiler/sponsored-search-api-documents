@@ -304,7 +304,6 @@ SOAPリクエストが成功した場合、スポンサードサーチ APIは HT
 #### 提案機能・予測に関連するエラー
 ##### Service
 [BidLandscapeService](/docs/ja/api_reference/services/BidLandscapeService.md),<br> [TargetingIdeaService](/docs/ja/api_reference/services/TargetingIdeaService.md),<br>
-[TrafficEstimatorService](/docs/ja/api_reference/services/TrafficEstimatorService.md),<br>
 [KeywordEstimatorService](/docs/ja/api_reference/services/KeywordEstimatorService.md)
 
 コード                   | メッセージ  | 説明 
