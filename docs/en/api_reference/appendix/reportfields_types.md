@@ -19,7 +19,8 @@ List of available report field per report type.
 <br><br>
 
 <hr>
-<a name="account">
+<a name="account"></a>
+
 #### Account Report
 Available Field | Combination with "Hour of day" (HOUR_OF<br>_DAY) | Comination with "Object of Conversion Tracking" (OBJECT_OF_CONV<br>ERSION_TRACKING) | Comibination with "Conversion Name" (CONVER<br>SION_NAME) | Combination with "Click Type" (CLICK<br>_TYPE)
 -----|-----|-----|-----|-----
@@ -68,7 +69,8 @@ CONVERSION_NAME		|yes	|yes	|-	|yes
 <br>
 
 <hr>
-<a name="campaign">
+<a name="campaign"></a>
+
 #### Campaign Report
 Available Field | Combination with "Hour of day" (HOUR_OF<br>_DAY) | Comination with "Object of Conversion Tracking" (OBJECT_OF_CONV<br>ERSION_TRACKING) | Comibination with "Conversion Name" (CONVER<br>SION_NAME) | Combination with "Click Type" (CLICK<br>_TYPE)
 -----|-----|-----|-----|-----
@@ -130,7 +132,8 @@ CONVERSION_NAME	|yes		|yes	|-	|yes
 <br>
 
 <hr>
-<a name="adgroup">
+<a name="adgroup"></a>
+
 #### Ad Group Report
 Available Field | Combination with "Hour of day" (HOUR_OF<br>_DAY) | Comination with "Object of Conversion Tracking" (OBJECT_OF_CONV<br>ERSION_TRACKING) | Comibination with "Conversion Name" (CONVER<br>SION_NAME) | Combination with "Click Type" (CLICK<br>_TYPE)
 -----|-----|-----|-----|-----
@@ -187,7 +190,8 @@ CONVERSION_NAME		|yes	|yes	|-	|yes
 <br>
 
 <hr>
-<a name="ad">
+<a name="ad"></a>
+
 #### Ad Report
 Available Field | Combination with "Hour of day" (HOUR_OF<br>_DAY) | Comination with "Object of Conversion Tracking" (OBJECT_OF_CONV<br>ERSION_TRACKING) | Comibination with "Conversion Name" (CONVER<br>SION_NAME) | Combination with "Click Type" (CLICK<br>_TYPE)
 -----|-----|-----|-----|-----
@@ -254,7 +258,8 @@ AD_KEYWORD_ID	|no	|yes	|yes	|yes
 <br>
 
 <hr>
-<a name="keywords">
+<a name="keywords"></a>
+
 #### Keyword Report
 Available Field | Combination with "Hour of day" (HOUR_OF<br>_DAY) | Comination with "Object of Conversion Tracking" (OBJECT_OF_CONV<br>ERSION_TRACKING) | Comibination with "Conversion Name" (CONVER<br>SION_NAME) | Combination with "Click Type" (CLICK<br>_TYPE)
 -----|-----|-----|-----|-----
@@ -315,7 +320,8 @@ CONVERSION_NAME	|no	|yes	|-	|yes
 <br>
 
 <hr>
-<a name="search_query">
+<a name="search_query"></a>
+
 #### Search Query Report
 Available Field | Combination with "Hour of day" (HOUR_OF<br>_DAY) | Comination with "Object of Conversion Tracking" (OBJECT_OF_CONV<br>ERSION_TRACKING) | Comibination with "Conversion Name" (CONVER<br>SION_NAME) | Combination with "Click Type" (CLICK<br>_TYPE)
 -----|-----|-----|-----|-----
@@ -365,7 +371,8 @@ CONVERSION_NAME		|no	|yes	|-	|no
 <br>
 
 <hr>
-<a name="geo">
+<a name="geo"></a>
+
 #### Geo Report
 Available Field | Combination with "Hour of day" (HOUR_OF<br>_DAY) | Comination with "Object of Conversion Tracking" (OBJECT_OF_CONV<br>ERSION_TRACKING) | Comibination with "Conversion Name" (CONVER<br>SION_NAME) | Combination with "Click Type" (CLICK<br>_TYPE)
 -----|-----|-----|-----|-----
@@ -411,7 +418,8 @@ CITY		|no	|yes	|yes	|no
 <br>
 
 <hr>
-<a name="feed_item">
+<a name="feed_item"></a>
+
 #### Ad Display Option Report
 Available Field | Combination with "Hour of day" (HOUR_OF<br>_DAY) | Comination with "Object of Conversion Tracking" (OBJECT_OF_CONV<br>ERSION_TRACKING) | Comibination with "Conversion Name" (CONVER<br>SION_NAME) | Combination with "Click Type" (CLICK<br>_TYPE)
 -----|-----|-----|-----|-----
@@ -474,7 +482,8 @@ IS_SELF_ACTION	|no	|yes	|yes	|no
 <br>
 
 <hr>
-<a name="geo_target">
+<a name="geo_target"></a>
+
 #### Geo Targeting Report
 Available Field | Combination with "Hour of day" (HOUR_OF<br>_DAY) | Comination with "Object of Conversion Tracking" (OBJECT_OF_CONV<br>ERSION_TRACKING) | Comibination with "Conversion Name" (CONVER<br>SION_NAME) | Combination with "Click Type" (CLICK<br>_TYPE)
 -----|-----|-----|-----|-----
@@ -514,7 +523,8 @@ WEEK	|no	|no	|no	|no
 <br>
 
 <hr>
-<a name="schedule_target">
+<a name="schedule_target"></a>
+
 #### Schedule Targeting Report
 Available Field | Combination with "Hour of day" (HOUR_OF<br>_DAY) | Comination with "Object of Conversion Tracking" (OBJECT_OF_CONV<br>ERSION_TRACKING) | Comibination with "Conversion Name" (CONVER<br>SION_NAME) | Combination with "Click Type" (CLICK<br>_TYPE)
 -----|-----|-----|-----|-----
@@ -554,7 +564,8 @@ WEEK		|no	|no	|no	|no
 <br>
 
 <hr>
-<a name="bid_strategy">
+<a name="bid_strategy"></a>
+
 #### Auto Bidding Report
 Available Field | Combination with "Hour of day" (HOUR_OF<br>_DAY) | Comination with "Object of Conversion Tracking" (OBJECT_OF_CONV<br>ERSION_TRACKING) | Comibination with "Conversion Name" (CONVER<br>SION_NAME) | Combination with "Click Type" (CLICK<br>_TYPE)
 -----|-----|-----|-----|-----
@@ -609,7 +620,8 @@ HOUR_OF_DAY	|-	|no	|no	|no
 <br>
 
 <hr>
-<a name="target_list">
+<a name="target_list"></a>
+
 #### Target List Setting Report
 Available Field | Combination with "Hour of day" (HOUR_OF<br>_DAY) | Comination with "Object of Conversion Tracking" (OBJECT_OF_CONV<br>ERSION_TRACKING) | Comibination with "Conversion Name" (CONVER<br>SION_NAME) | Combination with "Click Type" (CLICK<br>_TYPE)
 -----|-----|-----|-----|-----
@@ -658,7 +670,8 @@ CONVERSION_NAME	|no	|yes	|-	|yes
 <br>
 
 <hr>
-<a name="ad_customizers">
+<a name="ad_customizers"></a>
+
 #### Data Auto Insertion Report
 Available Field | Combination with "Hour of day" (HOUR_OF<br>_DAY) | Comination with "Object of Conversion Tracking" (OBJECT_OF_CONV<br>ERSION_TRACKING) | Comibination with "Conversion Name" (CONVER<br>SION_NAME) | Combination with "Click Type" (CLICK<br>_TYPE)
 -----|-----|-----|-----|-----
@@ -710,7 +723,8 @@ CONVERSION_NAME	|no	|yes	|-	|no
 <br>
 
 <hr>
-<a name="landing_page_url">
+<a name="landing_page_url"></a>
+
 #### Landing Page URL Report 
 Available Field | Combination with "Hour of day" (HOUR_OF<br>_DAY) | Comination with "Object of Conversion Tracking" (OBJECT_OF_CONV<br>ERSION_TRACKING) | Comibination with "Conversion Name" (CONVER<br>SION_NAME) | Combination with "Click Type" (CLICK<br>_TYPE)
 -----|-----|-----|-----|-----
